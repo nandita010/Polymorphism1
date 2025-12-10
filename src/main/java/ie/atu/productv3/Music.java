@@ -1,5 +1,7 @@
 package ie.atu.productv3;
 
+import ie.atu.productv3.Product;
+
 public class Music extends Product {
 
     private String artist;
@@ -33,3 +35,4 @@ public class Music extends Product {
         return super.toString() + " by " + artist + "\nPart of the " + label + " group";
     }
 }
+
